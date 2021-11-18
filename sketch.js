@@ -56,6 +56,9 @@ function draw() {
   textSize(40);
   text("EPIC ARCHERY", width / 2, 100);
 }
-
+  
+if(keyCode===32){
+  arrow.shoot(playerArcher.body.angle);
+}
 
 
